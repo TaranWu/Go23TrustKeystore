@@ -1,6 +1,16 @@
+source "https://github.com/TaranWu/Go23WalletSpec.git"
+source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
-target 'Go23TrustKeystore_Tests' do
+
+platform :ios, '10.0'
+
+target 'Go23TrustKeystore_Example' do
   pod 'Go23TrustKeystore', :path => '../'
-  
-  
+
+  target 'Go23TrustKeystore_Tests' do
+    inherit! :search_paths
+
+    
+  end
 end

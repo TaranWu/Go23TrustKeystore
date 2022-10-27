@@ -1,5 +1,4 @@
 import XCTest
-import Go23TrustKeystore
 
 class Tests: XCTestCase {
     
