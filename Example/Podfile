@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Go23TrustKeystore_Tests' do
+  pod 'Go23TrustKeystore', :path => '../'
+  
+  
+end
