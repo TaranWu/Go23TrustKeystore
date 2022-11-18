@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Go23TrustKeystore'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'Go23 Trust Keystore.'
 
   s.description      = <<-DESC
@@ -38,6 +38,6 @@ Pod::Spec.new do |s|
 
     s.dependency 'CryptoSwift', '~> 1.0'
     s.dependency 'secp256k1_ios', '~> 0.1.0'
-    s.dependency 'TrezorCrypto'
+#    s.dependency 'TrezorFirmwareCrypto'
 
 end
